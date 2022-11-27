@@ -6,7 +6,7 @@ def test_encrypt_message():
     message = "CUSCUZ"
 
     first_case = "SUC_ZUC"
-    second_case = "ZU_CUSC"
+    second_case = "ZU_CSUC"
     third_case = "ZUCSUC"
 
     assert encrypt_message(message, 3) == first_case
